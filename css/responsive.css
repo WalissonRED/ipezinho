@@ -193,6 +193,10 @@
 }
 
 @media (max-width: 575px) {
+
+    #logo{
+        width:50%;
+    }
     .header {
         padding: 0px 0px 0px 0px;
         margin-bottom: 300px;
@@ -216,7 +220,6 @@
     }
     .text-bg p {
         padding-bottom: 30px;
-        text-align: center;
     }
     .ideas_box p {
         margin-bottom: 30px;
@@ -226,7 +229,6 @@
         line-height: 60px;
         padding-top: 180px;
         padding-bottom: 10px;
-        text-align: center;
     }
     .carousel-inner {
         margin-right: 0;

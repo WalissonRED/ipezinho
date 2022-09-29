@@ -321,7 +321,6 @@ button {
      width: 159px;
      z-index: 9999;
      height: 159px;
-     cursor: pointer;
 }
 
 .text-bg {
@@ -494,7 +493,7 @@ button {
 .services .services_box {
      text-align: center;
      background-color: #f6f6f6;
-     padding: 80px 0;
+     padding: 20px;
      margin-bottom: 30px;
      border-radius: 10px;
      transition: ease-in all 0.5s;
