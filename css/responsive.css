@@ -41,6 +41,11 @@
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 0px 18px;
     }
+
+
+    .header {
+        padding: 0 0;
+    }
     .text-bg h1 {
         font-size: 43px;
         line-height: 53px;
@@ -100,6 +105,11 @@
     .banner_main {
         min-height: 1065px;
     }
+
+    .header {
+        padding: 0 0;
+    }
+
     .text_img {
         margin-right: 0px;
         margin-top: 30px;
@@ -184,12 +194,14 @@
 
 @media (max-width: 575px) {
     .header {
-        padding: 30px 0px 15px 0px;
+        padding: 0px 0px 0px 0px;
+        margin-bottom: 300px;
+    }
+    .text-bg a {
+        align-items: center;
     }
     .logo {
-        text-align: center !important;
-        padding-bottom: 6px;
-        float: left;
+        padding-bottom: 1px;
     }
     .text_img {
         margin-right: 0px;
@@ -204,6 +216,7 @@
     }
     .text-bg p {
         padding-bottom: 30px;
+        text-align: center;
     }
     .ideas_box p {
         margin-bottom: 30px;
@@ -211,7 +224,9 @@
     .text-bg h1 {
         font-size: 47px;
         line-height: 60px;
+        padding-top: 180px;
         padding-bottom: 10px;
+        text-align: center;
     }
     .carousel-inner {
         margin-right: 0;
